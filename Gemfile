@@ -14,7 +14,7 @@ gem 'jsonapi-serializer'
 #JSON Errors Handler:
 gem 'jsonapi_errors_handler'
 #Authentication
-gem 'octokit', '~> 8.1'
+gem 'omniauth', '~> 2.1', '>= 2.1.2'
 gem 'faraday-retry', '~> 2.2'
 gem 'base64', '~> 0.2.0'
 gem 'sawyer', '~> 0.9.2'
