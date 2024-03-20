@@ -15,10 +15,13 @@ gem 'jsonapi-serializer'
 gem 'jsonapi_errors_handler'
 #Authentication
 gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'devise-jwt'
 gem 'omniauth', '~> 2.1', '>= 2.1.2'
 gem 'faraday-retry', '~> 2.2'
 gem 'base64', '~> 0.2.0'
 gem 'sawyer', '~> 0.9.2'
+#enable CORS
+gem 'rack-cors'
 #json generation for rails
 gem 'active_model_serializers', '~> 0.10.14'
 
