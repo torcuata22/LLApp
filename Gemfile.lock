@@ -290,7 +290,7 @@ DEPENDENCIES
   base64 (~> 0.2.0)
   bootsnap
   debug
-  devise (~> 4.9, >= 4.9.3)
+  devise
   devise-jwt
   dotenv-rails
   factory_bot_rails
