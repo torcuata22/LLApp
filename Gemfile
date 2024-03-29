@@ -6,7 +6,7 @@ ruby "3.2.2"
 gem "rails", "~> 7.1.3"
 
 # Use postgres as the database for Active Record
-gem "pg"
+gem 'pg', '~> 1.5', '>= 1.5.6'
 # Load environment variables from .env file in development and test
 gem 'dotenv-rails', groups: [:development, :test]
 #serializer:
