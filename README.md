@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * ...
 # LLApp
+
+## Device create users
+> rails g devise:controllers users -c sessions registrations
